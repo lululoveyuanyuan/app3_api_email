@@ -1,2 +1,44 @@
 # created by virtualenv automatically
+# Ignore everything
+*
+
+# But not these files...
+!*.py
+!README.md
+
+# Exclude specific directories/files
+bin/
+include/
+lib/
 pyvenv.cfg
+.gitignore
+
+# System files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# virtualenv
+venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# .env files
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
